@@ -301,5 +301,33 @@ footer a {
   color: #555;
   text-decoration: underline;
 }
+#grassshoes {
+  width: 66%;
+  float: left;
+}
+
+#shoearchive {
+  width: 34%;
+  float: left;
+  
+}
+.clearfix::after {
+    content: ".";
+    clear: both;
+    display: table;
+    visibility: hidden
+}
+*{
+  box-sizing: border-box
+}
+#columns {
+    column-count: 3;
+    clear: both;
+    column-width: 30%;
+    padding: 20px 0 0 0;
+
+}
+
+
 
 /* code examples copyright Jonathan Grover 2012 */
